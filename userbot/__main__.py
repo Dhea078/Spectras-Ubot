@@ -43,7 +43,7 @@ if not BOT_TOKEN:
 LOGS.info(
     f"Jika Anda Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/NastySupportt")
 LOGS.info(
-    f"✨Kyy-Userbot✨ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"𝙎𝙥𝙚𝙘𝙩𝙧𝙖𝙨 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 idle()
 if len(sys.argv) not in (1, 3, 4):
     bot.disconnect()
