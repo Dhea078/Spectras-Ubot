@@ -169,7 +169,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/dca7e3f42d2c8cc547e1d.jpg?fbclid=IwAR1KSiXixf01jnfUxRAJbEYa9mn5Q0WFtthse5d8rPAsio4TPze5PZR4xJo"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -303,11 +303,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/dca7e3f42d2c8cc547e1d.jpg?fbclid=IwAR1KSiXixf01jnfUxRAJbEYa9mn5Q0WFtthse5d8rPAsio4TPze5PZR4xJo"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/dca7e3f42d2c8cc547e1d.jpg?fbclid=IwAR1KSiXixf01jnfUxRAJbEYa9mn5Q0WFtthse5d8rPAsio4TPze5PZR4xJo"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✘"
@@ -707,7 +707,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ҡʏʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**✨ ꜱᴘᴇᴄᴛʀᴀꜱ ᴜꜱᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -728,7 +728,7 @@ with bot:
                 result = await event.builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"**✨ ҡʏʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**✨ ꜱᴘᴇᴄᴛʀᴀꜱ ᴜꜱᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -788,8 +788,8 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ҡʏʏ-υѕєявσт ✨",
-                    description="Kyy - Userbot | Telethon",
+                    title="✨ ꜱᴘᴇᴄᴛʀᴀꜱ ᴜꜱᴇʀʙᴏᴛ ✨",
+                    description="ꜱᴘᴇᴄᴛʀᴀꜱ-ᴜꜱᴇʀʙᴏᴛ | Telethon",
                     url="https://t.me/NastyProject",
                     thumb=InputWebDocument(
                         INLINE_PIC,
@@ -853,7 +853,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Kyy-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ҡʏʏ-υѕєявσт ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**")
+                    f"**✨ ꜱᴘᴇᴄᴛʀᴀꜱ ᴜꜱᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**")
                 await event.edit(
                     text,
                     file=kyylogo,
