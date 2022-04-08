@@ -12,8 +12,8 @@ async def startupmessage():
         if BOTLOG:
             await tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/02f87cca391f9b9d627d5.jpg",
-                caption="✨ **Kyy Userbot Has Been Actived**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 8.0@master\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @NastyProject ",
+                "https://telegra.ph/file/dca7e3f42d2c8cc547e1d.jpg?fbclid=IwAR0uNTwu1qpGJkrSxMeAyrHLY_-KlmofRSnFjJgtno4lvnYZj_ZPSUpY56k",
+                caption="✨ **𝙎𝙋𝙀𝘾𝙏𝙍𝘼𝙎 𝙐𝙎𝙀𝙍𝘽𝙊𝙏**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 8.0@master\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @NastyProject ",
                 buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/NastySupportt"),)],
             )
     except Exception as e:
