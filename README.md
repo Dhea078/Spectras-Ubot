@@ -1,4 +1,4 @@
-<h1 align="center">ҡʏʏ-υѕєявσт</h1>
+<h1 align="center">ꜱᴘᴇᴄᴛʀᴀꜱ ᴜꜱᴇʀʙᴏᴛ</h1>
 
 <p align="center">
     <a href="https://github.com/muhammadrizky16/Kyy-Userbot/commits/Kyy-Userbot"><img src="https://img.shields.io/github/last-commit/muhammadrizky16/Kyy-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/276d22aac9f400898cd27.jpg">
+  <img src="https://telegra.ph/file/dca7e3f42d2c8cc547e1d.jpg?fbclid=IwAR1KSiXixf01jnfUxRAJbEYa9mn5Q0WFtthse5d8rPAsio4TPze5PZR4xJo">
 </p>
 
 
